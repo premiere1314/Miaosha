@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://118.25.138.169:3306/1608v?useUnicode=true&characterEncoding=utf-8&serverTimezone=Hongkong
-    username: root
-    password: 1234
+    url: jdbc:mysql:// 数据库路径 ?useUnicode=true&characterEncoding=utf-8&serverTimezone=Hongkong
+    username: 
+    password: 
   #jpa
   jpa:
     database: mysql
