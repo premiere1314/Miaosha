@@ -1,0 +1,24 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://118.25.138.169:3306/1608v?useUnicode=true&characterEncoding=utf-8&serverTimezone=Hongkong
+    username: root
+    password: 1234
+  #jpa
+  jpa:
+    database: mysql
+    #show-sql: true
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+  security:
+    basic:
+      path: /swagger-ui.html
+      enabled: true
+    user:
+      name: admin
+      password: 1234
+
